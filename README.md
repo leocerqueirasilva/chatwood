@@ -3,7 +3,7 @@
 
 ___
 
-# Chatwoot 
+# Chatwood 
 
 Customer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
 <p>
