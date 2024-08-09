@@ -52,8 +52,9 @@ button {
   }
 
   &.success {
-    @apply bg-[#E53B3B] dark:bg-[#E53B3B] text-white dark:text-white;
-  }
+    @apply text-white dark:text-white;
+    background: linear-gradient(180deg, #944CDC 0%, #5800AF 100%);
+}
 
   &.secondary {
     @apply bg-slate-700 dark:bg-slate-600 text-white dark:text-white;
