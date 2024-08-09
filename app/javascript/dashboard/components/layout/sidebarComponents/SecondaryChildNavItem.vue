@@ -35,7 +35,7 @@
 
         <span
           v-if="labelColor"
-          class="inline-flex rounded-sm bg-slate-100 h-3 w-3.5 mr-1.5 rtl:mr-0 rtl:ml-1.5 border border-slate-50 dark:border-slate-900"
+          class="inline-flex rounded-sm bg-slate-100 h-3 w-3.5 mr-1.5 rtl:mr-0 rtl:ml-1.5 border border-transparent"
           :style="{ backgroundColor: labelColor }"
         />
         <div
