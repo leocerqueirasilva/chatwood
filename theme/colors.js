@@ -15,7 +15,8 @@ const {
 export const colors = {
   woot: {
     25: blue.blue2,
-    50: violet.violet1,
+    50: blue.blue3,
+    75: blue.blue4,
     100: violetDark.violet12,
     200: violet.violet6,
     300: violet.violet8,
