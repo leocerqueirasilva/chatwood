@@ -27,6 +27,22 @@ export const colors = {
     800: blueDark.blue6,
     900: blueDark.blue2,
   },
+
+  violetCustom: {
+    25: 'hsl(260, 60%, 95%)',  // ou #e7d8f8
+    50: 'hsl(260, 60%, 85%)',  // ou #ccb6f0
+    75: 'hsl(260, 60%, 75%)',  // ou #b093e8
+    100: 'hsl(260, 60%, 65%)', // ou #9571e0
+    200: 'hsl(260, 60%, 55%)', // ou #7a4fd7
+    300: 'hsl(260, 60%, 45%)', // ou #602dce
+    400: 'hsl(260, 60%, 35%)', // ou #4620a9
+    500: 'hsl(260, 60%, 30%)', // ou #331683
+    600: 'hsl(260, 60%, 25%)', // ou #27104d
+    700: 'hsl(260, 60%, 20%)', // ou #1b0b33
+    800: 'hsl(260, 60%, 15%)', // ou #0f071a
+    900: 'hsl(260, 60%, 10%)', // ou #06030f
+  },
+  
   green: {
     50: greenDark.green12,
     100: green.green6,
@@ -102,18 +118,18 @@ export const colors = {
     900: violet.violet12,
   },
   primary: {
-    25: 'rgb(var(--color-primary-25) / <alpha-value>)',
-    50: 'rgb(var(--color-primary-50) / <alpha-value>)',
-    75: 'rgb(var(--color-primary-75) / <alpha-value>)',
-    100: 'rgb(var(--color-primary-100) / <alpha-value>)',
-    200: 'rgb(var(--color-primary-200) / <alpha-value>)',
-    300: 'rgb(var(--color-primary-300) / <alpha-value>)',
-    400: 'rgb(var(--color-primary-400) / <alpha-value>)',
-    500: 'rgb(var(--color-primary-500) / <alpha-value>)',
-    600: 'rgb(var(--color-primary-600) / <alpha-value>)',
-    700: 'rgb(var(--color-primary-700) / <alpha-value>)',
-    800: 'rgb(var(--color-primary-800) / <alpha-value>)',
-    900: 'rgb(var(--color-primary-900) / <alpha-value>)',
+    25: colors.violetCustom[25],
+    50: colors.violetCustom[50],
+    75: colors.violetCustom[75],
+    100: colors.violetCustom[100],
+    200: colors.violetCustom[200],
+    300: colors.violetCustom[300],
+    400: colors.violetCustom[400],
+    500: colors.violetCustom[500],
+    600: colors.violetCustom[600],
+    700: colors.violetCustom[700],
+    800: colors.violetCustom[800],
+    900: colors.violetCustom[900],
   },
   ash: {
     25: 'rgb(var(--color-ash-25) / <alpha-value>)',
