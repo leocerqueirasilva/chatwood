@@ -1,6 +1,6 @@
 <template>
   <svg
-    v-if="iconLib === 'fluent'"
+    v-if="iconLibrary === 'fluent'"
     :width="size"
     :height="size"
     fill="none"
@@ -69,6 +69,12 @@ export default {
         return path;
       }
       return [path];
+    },
+    iconLibrary() {
+      if (this.icon === 'inbox' || this.icon === 'bulksend') {
+        return 'custom';
+      }
+      return this.iconLib;
     },
   },
 };
