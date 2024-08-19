@@ -6,6 +6,7 @@ import { routes as notificationRoutes } from './notifications/routes';
 import { routes as inboxRoutes } from './inbox/routes';
 import { frontendURL } from '../../helper/URLHelper';
 import helpcenterRoutes from './helpcenter/helpcenter.routes';
+import { routes as bulksendRoutes } from './bulksend/bulksend.routes';
 
 const AppContainer = () => import('./Dashboard.vue');
 const Captain = () => import('./Captain.vue');
@@ -32,6 +33,7 @@ export default {
         ...contactRoutes,
         ...searchRoutes,
         ...notificationRoutes,
+        ...bulksendRoutes,
       ],
     },
     {

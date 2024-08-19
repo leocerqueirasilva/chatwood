@@ -5,6 +5,7 @@ import campaigns from './sidebarItems/campaigns';
 import settings from './sidebarItems/settings';
 import notifications from './sidebarItems/notifications';
 import primaryMenu from './sidebarItems/primaryMenu';
+import inboxes from './sidebarItems/inboxes';
 
 export const getSidebarItems = accountId => ({
   primaryMenu: primaryMenu(accountId),
@@ -15,5 +16,6 @@ export const getSidebarItems = accountId => ({
     campaigns(accountId),
     settings(accountId),
     notifications(accountId),
+    inboxes(accountId),
   ],
 });

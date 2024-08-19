@@ -32,4 +32,6 @@ export const FEATURE_FLAGS = {
   IP_LOOKUP: 'ip_lookup',
   LINEAR: 'linear_integration',
   CAPTAIN: 'captain_integration',
+  BULK_SEND: 'bulk_send',
+  INBOXES: 'inboxes',
 };
