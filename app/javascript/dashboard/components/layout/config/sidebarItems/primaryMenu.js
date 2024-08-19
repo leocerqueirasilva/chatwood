@@ -18,6 +18,15 @@ const primaryMenuItems = accountId => [
     toStateName: 'home',
   },
   {
+    icon: 'inbox',
+    key: 'inbox',
+    label: 'INBOX',
+    featureFlag: FEATURE_FLAGS.INBOXES,
+    alwaysVisibleOnChatwootInstances: true,
+    toState: frontendURL(`accounts/${accountId}/settings/inboxes/list`),
+    toStateName: 'settings_inbox_list',
+  },
+  {
     icon: 'captain',
     key: 'captain',
     label: 'CAPTAIN',
@@ -57,6 +66,15 @@ const primaryMenuItems = accountId => [
     alwaysVisibleOnChatwootInstances: true,
     toState: frontendURL(`accounts/${accountId}/portals`),
     toStateName: 'default_portal_articles',
+  },
+  {
+    icon: 'bulksend',
+    key: 'bulksend',
+    label: 'BULK_SEND',
+    featureFlag: FEATURE_FLAGS.BULK_SEND,
+    alwaysVisibleOnChatwootInstances: true,
+    toState: frontendURL(`accounts/${accountId}/bulk-send`),
+    toStateName: 'bulk_send',
   },
   {
     icon: 'settings',
