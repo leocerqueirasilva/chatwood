@@ -60,6 +60,11 @@ export default {
       default: 'fluent',
     },
   },
+  data() {
+    return {
+      pIcons: ['inbox', 'bulksend', 'chat', 'reports', 'helpcenter'],
+    };
+  },
 
   computed: {
     pathSource() {
@@ -71,7 +76,7 @@ export default {
       return [path];
     },
     iconLibrary() {
-      if (this.icon === 'inbox' || this.icon === 'bulksend') {
+      if (this.pIcons.includes(this.icon)) {
         return 'custom';
       }
       return this.iconLib;

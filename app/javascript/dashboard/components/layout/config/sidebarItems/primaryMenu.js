@@ -35,7 +35,7 @@ const primaryMenuItems = accountId => [
     toStateName: 'captain',
   },
   {
-    icon: 'book-contacts',
+    icon: 'contacts',
     key: 'contacts',
     label: 'CONTACTS',
     featureFlag: FEATURE_FLAGS.CRM,
@@ -43,7 +43,7 @@ const primaryMenuItems = accountId => [
     toStateName: 'contacts_dashboard',
   },
   {
-    icon: 'arrow-trending-lines',
+    icon: 'reports',
     key: 'reports',
     label: 'REPORTS',
     featureFlag: FEATURE_FLAGS.REPORTS,
@@ -59,7 +59,7 @@ const primaryMenuItems = accountId => [
     toStateName: 'ongoing_campaigns',
   },
   {
-    icon: 'library',
+    icon: 'helpcenter',
     key: 'helpcenter',
     label: 'HELP_CENTER.TITLE',
     featureFlag: FEATURE_FLAGS.HELP_CENTER,
