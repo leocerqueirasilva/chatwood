@@ -119,7 +119,7 @@ const settings = accountId => ({
       toStateName: 'settings_applications',
       featureFlag: FEATURE_FLAGS.INTEGRATIONS,
     },
-    {
+    /*{
       icon: 'key',
       label: 'AUDIT_LOGS',
       hasSubMenu: false,
@@ -131,8 +131,8 @@ const settings = accountId => ({
       isEnterpriseOnly: true,
       featureFlag: FEATURE_FLAGS.AUDIT_LOGS,
       beta: true,
-    },
-    {
+    },*/
+    /*{
       icon: 'document-list-clock',
       label: 'SLA',
       hasSubMenu: false,
@@ -144,7 +144,7 @@ const settings = accountId => ({
       isEnterpriseOnly: true,
       featureFlag: FEATURE_FLAGS.SLA,
       beta: true,
-    },
+    },*/
     {
       icon: 'credit-card-person',
       label: 'BILLING',
