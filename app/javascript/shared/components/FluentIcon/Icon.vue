@@ -15,6 +15,25 @@
     />
   </svg>
   <svg
+    v-else-if="icon === 'pm-chat'"
+    :width="size"
+    :height="size"
+    fill="none"
+    :viewBox="viewBox"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      v-for="source in pathSource"
+      :key="source"
+      :d="source"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+  <svg
     v-else
     :width="size"
     :height="size"
@@ -62,7 +81,7 @@ export default {
   },
   data() {
     return {
-      pIcons: ['inbox', 'bulksend', 'chat', 'reports', 'helpcenter'],
+      pIcons: ['inbox', 'bulksend', 'chat', 'reports', 'helpcenter', 'pm-chat'],
     };
   },
 
