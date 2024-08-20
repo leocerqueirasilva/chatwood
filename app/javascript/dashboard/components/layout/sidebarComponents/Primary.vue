@@ -25,6 +25,7 @@
         name="DOCS"
         :open-in-new-page="true"
         :to="helpDocsURL"
+        style="display: none;"
       />
       <notification-bell @open-notification-panel="openNotificationPanel" />
       <agent-details @toggle-menu="toggleOptions" />
