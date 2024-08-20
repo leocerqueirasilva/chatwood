@@ -50,14 +50,14 @@ const primaryMenuItems = accountId => [
     toState: frontendURL(`accounts/${accountId}/reports`),
     toStateName: 'account_overview_reports',
   },
-  {
+ /* {
     icon: 'megaphone',
     key: 'campaigns',
     label: 'CAMPAIGNS',
     featureFlag: FEATURE_FLAGS.CAMPAIGNS,
     toState: frontendURL(`accounts/${accountId}/campaigns`),
     toStateName: 'ongoing_campaigns',
-  },
+  }, */
   {
     icon: 'helpcenter',
     key: 'helpcenter',
