@@ -11,7 +11,7 @@ const primaryMenuItems = accountId => [
     toStateName: 'inbox_view',
   },
   {
-    icon: 'chat',
+    icon: 'pm-chat',
     key: 'conversations',
     label: 'CONVERSATIONS',
     toState: frontendURL(`accounts/${accountId}/dashboard`),
@@ -50,7 +50,7 @@ const primaryMenuItems = accountId => [
     toState: frontendURL(`accounts/${accountId}/reports`),
     toStateName: 'account_overview_reports',
   },
- /* {
+  /* {
     icon: 'megaphone',
     key: 'campaigns',
     label: 'CAMPAIGNS',
@@ -58,7 +58,7 @@ const primaryMenuItems = accountId => [
     toState: frontendURL(`accounts/${accountId}/campaigns`),
     toStateName: 'ongoing_campaigns',
   }, */
- /* {
+  /* {
     icon: 'helpcenter',
     key: 'helpcenter',
     label: 'HELP_CENTER.TITLE',
