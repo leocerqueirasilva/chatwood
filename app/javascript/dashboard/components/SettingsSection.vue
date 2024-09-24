@@ -21,7 +21,7 @@
         </slot>
       </p>
       <p v-if="note">
-        <span class="font-semibold">{{ $t('INBOX_MGMT.NOTE') }}</span>
+        <span class="font-semibold">{{ $t('INBOX_MGMT.NOTE') }}34</span>
         {{ note }}
       </p>
     </div>
