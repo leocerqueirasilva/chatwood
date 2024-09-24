@@ -1,6 +1,6 @@
 {
   "CONVERSATION": {
-    "SELECT_A_CONVERSATION": "Por favor, selecione uma conversa no painel da esquerda",
+    "SELECT_A_CONVERSATION": "Selecione uma conversa para enviar mensagens.",
     "CSAT_REPLY_MESSAGE": "Por favor, avalie a conversa",
     "404": "Desculpe, não encontramos a conversa. Por favor, tente novamente",
     "SWITCH_VIEW_LAYOUT": "Alternar o layout",
