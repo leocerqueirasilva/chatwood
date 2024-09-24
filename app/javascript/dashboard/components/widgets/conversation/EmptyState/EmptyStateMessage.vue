@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center justify-center h-full">
     <img
       class="m-4 w-32 hidden dark:block"
-      src="~dashboard/assets/images/no-chat-dark.svg"
+      src="~dashboard/assets/images/non-chat.svg"
       alt="No Chat dark"
     />
     <img
