@@ -47,7 +47,6 @@ export default {
         'sms',
         'telegram',
         'line',
-        'whatsapp-businnes'
       ].includes(key);
     },
   },
