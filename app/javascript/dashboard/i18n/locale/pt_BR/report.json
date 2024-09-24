@@ -279,11 +279,11 @@
     }
   },
   "INBOX_REPORTS": {
-    "HEADER": "Visualizar Caixa de Entrada",
+    "HEADER": "Visualizar Canal de Atendimento",
     "LOADING_CHART": "Carregando dados do gráfico...",
     "NO_ENOUGH_DATA": "Não existem dados suficientes para gerar o relatório. Tente novamente mais tarde.",
     "DOWNLOAD_INBOX_REPORTS": "Baixar relatórios de entrada",
-    "FILTER_DROPDOWN_LABEL": "Selecionar caixa de entrada",
+    "FILTER_DROPDOWN_LABEL": "Selecionar Canal de Atendimento",
     "METRICS": {
       "CONVERSATIONS": {
         "NAME": "Conversas",
@@ -526,12 +526,12 @@
       "INPUT_PLACEHOLDER": {
         "SLA": "Nome do SLA",
         "AGENTS": "Nome do Agente",
-        "INBOXES": "Nome da Caixa de Entrada",
+        "INBOXES": "Nome da Canal de Atendimento",
         "LABELS": "Nome do marcador",
         "TEAMS": "Nome do departamento"
       },
       "SLA": "Política SLA",
-      "INBOXES": "Caixa de Entrada",
+      "INBOXES": "Canal de Atendimento",
       "AGENTS": "Agente",
       "LABELS": "Nome do campo",
       "TEAMS": "Times"

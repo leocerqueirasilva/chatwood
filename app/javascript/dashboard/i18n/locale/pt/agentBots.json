@@ -22,7 +22,7 @@
     },
     "BOT_CONFIGURATION": {
       "TITLE": "Selecione um agent bot",
-      "DESC": "Atribua um Agent Bot à sua caixa de entrada. Eles podem lidar com conversas iniciais e transferi-las para um agente humano quando necessário.",
+      "DESC": "Atribua um Agent Bot à sua Canal de Atendimento. Eles podem lidar com conversas iniciais e transferi-las para um agente humano quando necessário.",
       "SUBMIT": "Atualização",
       "DISCONNECT": "Desligar bot",
       "SUCCESS_MESSAGE": "Agent bot atualizado com sucesso.",

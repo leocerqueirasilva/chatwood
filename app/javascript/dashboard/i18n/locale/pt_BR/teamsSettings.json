@@ -71,7 +71,7 @@
       "AGENT": "AGENTE",
       "EMAIL": "E-mail",
       "BUTTON_TEXT": "Adicionar agentes",
-      "ADD_AGENTS": "Adicionando agentes à sua caixa de entrada...",
+      "ADD_AGENTS": "Adicionando agentes à sua Canal de Atendimento...",
       "SELECT": "Selecionar",
       "SELECT_ALL": "Selecionar todos os agentes",
       "SELECTED_COUNT": "%{selected} de %{total} agentes selecionados."
@@ -86,7 +86,7 @@
       "AGENT_VALIDATION_ERROR": "Selecione pelo menos um agente."
     },
     "FINISH": {
-      "TITLE": "Sua caixa de entrada está pronta!",
+      "TITLE": "Sua Canal de Atendimento está pronta!",
       "MESSAGE": "Agora você pode colaborar como equipe em conversas.",
       "BUTTON_TEXT": "Finalizar"
     },

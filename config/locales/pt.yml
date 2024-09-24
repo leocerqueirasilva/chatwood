@@ -21,7 +21,7 @@ pt:
   messages:
     reset_password_success: Legal! Pedido de redefinição de senha bem sucedido. Verifique o seu e-mail para obter instruções.
     reset_password_failure: Uh ho! Não conseguimos encontrar nenhum uutilizador com o e-mail especificado.
-    inbox_deletetion_response: O seu pedido de eliminação de caixa de entrada será processado mais tarde.
+    inbox_deletetion_response: O seu pedido de eliminação de Canal de Atendimento será processado mais tarde.
   errors:
     validations:
       presence: não pode estar vazio
@@ -77,8 +77,8 @@ pt:
       resolution_count: Contagem de resolução
       avg_customer_waiting_time: Tempo médio de espera cliente
     inbox_csv:
-      inbox_name: Nome da caixa de entrada
-      inbox_type: Tipo de caixa de entrada
+      inbox_name: Nome da Canal de Atendimento
+      inbox_type: Tipo de Canal de Atendimento
       conversations_count: Num de conversas
       avg_first_response_time: Média de tempo da primeira resposta
       avg_resolution_time: Média de tempo de resolução
@@ -101,7 +101,7 @@ pt:
       sla_policy_breached: Política de SLA
       assignee: Atribuído
       team: Equipa
-      inbox: Caixa de Entrada
+      inbox: Canal de Atendimento
       labels: Etiquetas
       conversation_link: Link para a Conversa
       breached_events: Eventos não atingidos
@@ -256,8 +256,8 @@ pt:
       email: e-mail
       phone_number: Telefone
       company_name: Empresa
-      inbox_name: Caixa de Entrada
-      inbox_type: Tipo de caixa de entrada
+      inbox_name: Canal de Atendimento
+      inbox_type: Tipo de Canal de Atendimento
     button: Abrir conversa
   time_units:
     days:

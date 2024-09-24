@@ -37,7 +37,7 @@
       },
       "MESSAGE_SIGNATURE_SECTION": {
         "TITLE": "Assinatura de mensagem pessoal",
-        "NOTE": "Crie uma assinatura de mensagem única para aparecer no final de todas as mensagens que enviar de qualquer caixa de entrada. Pode incluir uma imagem embutida, que será suportada nos canais de live-chat, e-mail e caixas de entrada API.",
+        "NOTE": "Crie uma assinatura de mensagem única para aparecer no final de todas as mensagens que enviar de qualquer Canal de Atendimento. Pode incluir uma imagem embutida, que será suportada nos canais de live-chat, e-mail e Canais de Atendimento API.",
         "BTN_TEXT": "Salvar assinatura da mensagem",
         "API_ERROR": "Não foi possível salvar a assinatura! Tente novamente",
         "API_SUCCESS": "Assinatura salva com sucesso",
@@ -190,9 +190,9 @@
     "TRIAL_MESSAGE": "dias de teste restantes.",
     "TRAIL_BUTTON": "Comprar agora",
     "DELETED_USER": "Utilizador Excluído",
-    "EMAIL_VERIFICATION_PENDING": "Parece que o seu endereço de e-mail ainda não foi verificado. Por favor, confira a sua caixa de entrada e siga as instruções para concluir a verificação.",
+    "EMAIL_VERIFICATION_PENDING": "Parece que o seu endereço de e-mail ainda não foi verificado. Por favor, confira a sua Canal de Atendimento e siga as instruções para concluir a verificação.",
     "RESEND_VERIFICATION_MAIL": "Reenviar e-mail de verificação",
-    "EMAIL_VERIFICATION_SENT": "O e-mail de verificação foi enviado. Por favor, confira a sua caixa de entrada.",
+    "EMAIL_VERIFICATION_SENT": "O e-mail de verificação foi enviado. Por favor, confira a sua Canal de Atendimento.",
     "ACCOUNT_SUSPENDED": {
       "TITLE": "Conta Suspensa",
       "MESSAGE": "A sua conta está suspensa. Entre em contato com a equipa de suporte para obter mais informações."
@@ -223,15 +223,15 @@
   "CONFIRM_EMAIL": "A verificar...",
   "SETTINGS": {
     "INBOXES": {
-      "NEW_INBOX": "Adicionar caixa de entrada"
+      "NEW_INBOX": "Adicionar Canal de Atendimento"
     }
   },
   "SIDEBAR": {
     "CURRENTLY_VIEWING_ACCOUNT": "Atualmente visualizando:",
     "SWITCH": "Alternar",
-    "INBOX_VIEW": "Visualização da Caixa de entrada",
+    "INBOX_VIEW": "Visualização da Canal de Atendimento",
     "CONVERSATIONS": "Conversas",
-    "INBOX": "Caixa de Entrada",
+    "INBOX": "Canal de Atendimento",
     "ALL_CONVERSATIONS": "Todas as conversas",
     "MENTIONED_CONVERSATIONS": "Conversas privadas",
     "PARTICIPATING_CONVERSATIONS": "Participando",
@@ -243,7 +243,7 @@
     "AGENTS": "Agentes",
     "AGENT_BOTS": "Bots",
     "AUDIT_LOGS": "Logs de auditoria",
-    "INBOXES": "Caixas de Entrada",
+    "INBOXES": "Canais de Atendimento",
     "NOTIFICATIONS": "Notificaçoes",
     "CANNED_RESPONSES": "Respostas Prontas",
     "INTEGRATIONS": "Integrações",
@@ -262,7 +262,7 @@
     "TAGGED_WITH": "Etiquetada com",
     "NEW_LABEL": "Nova etiqueta",
     "NEW_TEAM": "Nova equipa",
-    "NEW_INBOX": "Nova caixa de entrada",
+    "NEW_INBOX": "Nova Canal de Atendimento",
     "REPORTS_CONVERSATION": "Conversas",
     "CSAT": "CSAT",
     "CAMPAIGNS": "Campanhas",
@@ -272,7 +272,7 @@
     "REPORTS_BOT": "Bot",
     "REPORTS_AGENT": "Agentes",
     "REPORTS_LABEL": "Etiquetas",
-    "REPORTS_INBOX": "Caixa de Entrada",
+    "REPORTS_INBOX": "Canal de Atendimento",
     "REPORTS_TEAM": "Equipa",
     "SET_AVAILABILITY_TITLE": "Defina-se como",
     "SLA": "SLA",

@@ -192,15 +192,15 @@
     "BUTTON_LABEL": "Iniciar conversa",
     "TITLE": "Nova conversa",
     "DESC": "Começar uma conversa enviando uma mensagem.",
-    "NO_INBOX": "Não foi possível encontrar uma caixa de entrada para começar uma conversa com este contato.",
+    "NO_INBOX": "Não foi possível encontrar uma Canal de Atendimento para começar uma conversa com este contato.",
     "FORM": {
       "TO": {
         "LABEL": "Para"
       },
       "INBOX": {
-        "LABEL": "Caixa de Entrada",
-        "PLACEHOLDER": "Selecionar caixa de entrada",
-        "ERROR": "Selecione uma caixa de entrada"
+        "LABEL": "Canal de Atendimento",
+        "PLACEHOLDER": "Selecionar Canal de Atendimento",
+        "ERROR": "Selecione uma Canal de Atendimento"
       },
       "SUBJECT": {
         "LABEL": "Assunto",
